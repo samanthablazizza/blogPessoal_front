@@ -1,6 +1,6 @@
-
 function Home() {
-    return (
+    
+     return (
         <>
             <div className="bg-indigo-900 flex justify-center">
                 <div className='container grid grid-cols-2 text-white'>
