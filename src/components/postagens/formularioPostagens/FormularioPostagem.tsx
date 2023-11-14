@@ -24,7 +24,7 @@ function FormularioPostagem() {
     const { usuario, handleLogout } = useContext(AuthContext)
     const token = usuario.token
 
-    async function buscarPostagemPorId(id: string) {
+    async function buscarPostagemPorId(id: string) { //rotas do backend
         await buscar(`/postagens/${id}`, setPostagem, {
             headers: {
                 Authorization: token,
